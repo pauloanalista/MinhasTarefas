@@ -1,18 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View, Input } from 'react-native';
-import {styles} from './style';
+import {ContainerInput0, ContainerInput1} from './style';
 
 
 export default function Tarefas() {
   return (
-    <View style={styles.container}>
+    <View>
       <Text>Tarefas d</Text>
       <StatusBar style="auto" />
 
-      <View style={styles.containerInput}>
-        <Text>Texto do conainer</Text>
-        {/* <Input placeholder="Informe tarefa aqui..."/> */}
-        </View>
+      <ContainerInput0>
+        <Text>Container 0</Text>
+      </ContainerInput0>
+
+       <ContainerInput1>
+        <Text>Container 1</Text>
+      </ContainerInput1> 
     </View>
   );
 }

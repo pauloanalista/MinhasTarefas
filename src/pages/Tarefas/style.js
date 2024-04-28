@@ -1,18 +1,9 @@
-import { StyleSheet } from 'react-native';
+import styled from 'styled-components/native';
 
-
-export const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-
-    containerInput : {
-        backgroundColor: 'red'
-    }
-  });
-
-
-  
+//Pode usar CSS normal
+export const ContainerInput0 = styled.View`
+    background-color: red;
+  `;
+export const ContainerInput1 = styled.View`
+    background-color: green;
+  `;
