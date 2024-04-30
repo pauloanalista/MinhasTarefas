@@ -11,7 +11,7 @@ const Drawer = createDrawerNavigator();
 
 export default function Routes() {
   return (
-    <Drawer.Navigator initialRouteName="Tarefas">
+    <Drawer.Navigator initialRouteName="MeuDia">
       <Drawer.Screen name="MeuDia" component={MeuDia} />
       <Drawer.Screen name="Importante" component={Importante} />
       <Drawer.Screen name="Planejado" component={Planejado} />
